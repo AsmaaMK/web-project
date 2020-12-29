@@ -2,56 +2,45 @@
     box-sizing: border-box;
 }
 
-body { 
+body {
     background-color: #2291FF;
     margin: 0%;
     padding: 0%;
+    display: grid;
+    grid-template-rows: 70px auto;
 }
 
-/************* header style *****************/
-
-.home-header {
+.background {
     width: 100%;
     height: auto;
-    text-align: center;
-    color: whitesmoke;
-    background-image: url('img/header.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
-.title {
-    font-family: 'Audiowide', cursive;
-    color: #0E3746;
-    font-size: 180px;
-    padding-top: 15%;
-    margin: 10px;
+/* navigation bar styles */
+
+header {
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
-.subtitle {
-    font-family: 'Philosopher', sans-serif;
-    font-weight: normal;
-    text-shadow: -3px 2px 4px rgba(0,0,0,0.53);
-    font-size: 60px;
-}
-
-nav {
-    position: relative;
-    top: -10px;
+.content {
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 .navbar {
     list-style-type: none;
-    margin: 0% 10%;
-    padding:0;
+    margin: 0% 15%;
+    padding: 0;
 }
 
 .listelements {
-    padding: 0 3%;
+    padding: 0 2%;
     display: inline-block;
     font-family: sans-serif;
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     border-radius: 0 0 15px 15px;
 }
@@ -62,13 +51,13 @@ nav {
 
 .right {
     float: right;
-    padding: 2% 3%;
+    padding: 2%;
 }
 
 .logo {
     font-family: 'Dosis', sans-serif;
-    font-size: 70px;
-    color: #0E3746;
+    font-size: 56px;
+    color: whitesmoke;
 }
 
 .right:hover {
@@ -78,33 +67,4 @@ nav {
 .active {
     background-color: whitesmoke;
     color: #0E3746;
-}
-
-.scrollButton {
-    width: 50px;
-    height: 100px;
-    border-radius: 10pc;
-    background-color: unset;
-    border: 5px solid whitesmoke;
-    position: relative;
-    
-}
-
-.scrollButton:hover {
-    opacity: 70%;
-}
-
-.scrollButton:focus {
-    outline: 0;
-    opacity: 30%;
-}
-
-.span1 {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: whitesmoke;
-    position: absolute;
-    top: 54px;
-    left: 5px;
 }

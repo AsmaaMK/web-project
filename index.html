@@ -1,34 +1,100 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Quiz</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Comic+Neue&family=Dosis&family=Libre+Baskerville&family=Philosopher:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-        <header class="home-header">
-            <nav>
-                <ul class="navbar">
-                    <li class="listelements left logo">Quiz</li>
-                    <a href="sign in.html"><li class="listelements right">Log In</li></a>
-                    <a href="sign up.html"><li class="listelements right">Sign Up</li></a>
-                    <a href="contact us.html"><li class="listelements right">Contact Us</li></a>
-                    <a href="index.html"><li class="listelements right active">Home</li></a>
-                    
-                </ul>
-            </nav>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Comic+Neue&family=Dosis&family=Libre+Baskerville&family=Philosopher:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .titleSection {
+            text-align: center;
+        }
+
+        .title {
+            font-family: 'Audiowide', cursive;
+            color: #0E3746;
+            font-size: 140px;
+            padding-top: 10%;
+            margin: 10px;
+        }
+
+        .subtitle {
+            font-family: 'Philosopher', sans-serif;
+            font-weight: normal;
+            color: whitesmoke;
+            font-size: 56px;
+        }
+
+        .scrollButton {
+            width: 50px;
+            height: 100px;
+            border-radius: 10pc;
+            background-color: unset;
+            border: 5px solid whitesmoke;
+            position: relative;
+        }
+
+        .scrollButton:hover {
+            opacity: 70%;
+        }
+
+        .scrollButton:focus {
+            outline: 0;
+            opacity: 30%;
+        }
+
+
+        .span1 {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: whitesmoke;
+            position: absolute;
+            top: 54px;
+            left: 5px;
+        }
+    </style>
+</head>
+
+<body class="background" style="background-image: url('img/header.png');">
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li class="listelements left logo">Quiz</li>
+                <a href="sign in.html">
+                    <li class="listelements right">Log In</li>
+                </a>
+                <a href="sign up.html">
+                    <li class="listelements right">Sign Up</li>
+                </a>
+                <a href="contact us.html">
+                    <li class="listelements right">Contact Us</li>
+                </a>
+                <a href="index.html">
+                    <li class="listelements right active">Home</li>
+                </a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="titleSection">
             <h1 class="title">Q U I Z</h1>
-            <h2 class="subtitle">With Quiz you can take tests 
-            <br><span style="font-family: 'Comic Neue', cursive;">with a lot of fun</span></h2>
+            <h2 class="subtitle">With Quiz you can take tests
+                <br><span style="font-family: 'Comic Neue', cursive;">with a lot of fun</span>
+            </h2>
             <br><br>
             <button class="scrollButton"><span class="span1"></span></button>
             <br><br><br><br><br>
-        </header>
+        </div>
 
-        <div class="howQuizWorks">
-            <article>
+        <div class="howQuizWorksSection">
+            <!--<article>
                 Create an account to can see your level and points
             </article>
             <article>
@@ -36,7 +102,10 @@
             </article>
             <article>
                 See you level from your profile with the graphic figures and points
-            </article>
+            </article>-->
+            <!-- Hi Omnia, solve your task here ♥️ -->
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
