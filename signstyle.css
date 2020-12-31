@@ -6,9 +6,11 @@ fieldset{
      bottom: 35px;
  }
  input{
-     width: 200px;
+     width: 350px;
      background: none;
      border: none;
+     position: relative;
+     bottom: 20px;
      
  }
  legend{
