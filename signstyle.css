@@ -1,0 +1,72 @@
+fieldset{
+    width: 380px;
+     border-radius: 12px;
+     height:80px;
+     position: relative;
+     bottom: 35px;
+ }
+ input{
+     width: 200px;
+     background: none;
+     border: none;
+     
+ }
+ legend{
+     color: white;
+      font-family: Verdana;    
+ }
+ img{
+     width: 320px;
+     position: relative;
+     top: 90px;
+     left: 300px;
+     transform: rotate(5deg);
+ }
+ .login{
+     position: relative;
+     float: right;
+     bottom: 250px;
+     right: 300px;
+     
+ }
+ #paragraph{
+   color: white;
+   position: relative;
+   left: 90px;
+   bottom: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ #password{
+     position: relative;
+     float: right;
+     right: 20px;
+     bottom: 25px;
+     color: white;
+     font-size: small;
+     text-decoration: none;
+
+ }
+ button{
+     width: 380px;
+     height: 60px;
+     border-radius: 12px;
+     color: white;
+     background-color: black;
+     font-size: 25px;
+     border: none;
+ }
+ #account {
+     color: white;
+     position: relative;
+     left: 90px;
+     display: inline-block;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: smaller;
+     top: 10px;
+ }
+ #sign{
+     display: inline-block;
+     color: black;
+     text-decoration: none;
+     
+ }
