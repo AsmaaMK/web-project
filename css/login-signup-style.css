@@ -1,6 +1,7 @@
 fieldset {
     width: 380px;
     border-radius: 12px;
+    border-color: white;
     height: 80px;
     position: relative;
     bottom: 35px;
@@ -26,8 +27,11 @@ img {
     left: 300px;
     transform: rotate(5deg);
 }
+#signup{
+    right: 150px;
+    }
 
-.login {
+.login ,#signup{
     position: relative;
     float: right;
     bottom: 250px;
@@ -72,8 +76,16 @@ button {
     top: 10px;
 }
 
-#sign {
+.sign {
     display: inline-block;
     color: black;
     text-decoration: none;
+}
+#textunderform{
+    color: white;
+    font-size: x-large;    
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
