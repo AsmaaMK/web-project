@@ -1,3 +1,7 @@
+html {
+     scroll-behavior: smooth;
+}
+
 .titleSection {
      text-align: center;
 }
@@ -65,11 +69,18 @@
      padding: 8px;
 }
 
+.flex {
+     padding: 20px;
+     display: flex;
+     min-height: 85vh;
+     margin: 0 0 100px 0;
+     justify-content: space-around;
+}
+
 .grid-item {
      padding: 15px;
      font-size: 31px;
      text-align: center;
-     
 } 
 
 .howQuizWorksSection2 {
@@ -83,6 +94,11 @@
      border-radius: 5px;
      height: 350px;
      width: 550px;
+}
+
+.stracture {
+     margin-left: 225px;
+     font-size: 20px;
 }
 
 .window {
