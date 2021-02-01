@@ -1,6 +1,12 @@
+.background {
+    background-image: url(../img/header.png);
+}
+
 .titleSection {
     text-align: center;
+    height: 50%;
 }
+
 
 .title {
     font-family: 'Audiowide', cursive;
@@ -45,6 +51,7 @@
     top: 54px;
     left: 5px;
 }
+/*****************************/
 
 .howQuizWorksSection1 {
     background-color: white;
@@ -115,3 +122,47 @@
     background-image: linear-gradient(to top left,rgba(0, 0, 0, .2));
 }
      
+.takeQuizNow {
+    background-color: #fff;
+    border-radius: 150px 0 150px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.takeQuizNowTitle {
+    background-color: #7F8690;
+    border-radius: 20px;
+    width: 700px;
+    height: 50px;
+    align-self: center;
+    justify-self: start;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.boxes > * {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px 20px;
+}
+
+.box1 {
+    background-color: #FFA45B;
+}
+.box2 {
+    background-color: #D35D6E;
+}
+.box3 {
+    background-color: #583D72;
+}
+
