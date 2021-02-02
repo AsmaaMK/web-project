@@ -71,10 +71,9 @@ html {
 
 .flex {
      padding: 20px;
-     display: flex;
-     min-height: 85vh;
+     display: flexbox;
      margin: 0 0 100px 0;
-     justify-content: space-around;
+     justify-content: center;
 }
 
 .grid-item {
