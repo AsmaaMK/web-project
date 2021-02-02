@@ -71,7 +71,7 @@ html {
 
 .flex {
      padding: 20px;
-     /* display: flex; */
+     display: flex;
      min-height: 85vh;
      margin: 0 0 100px 0;
      justify-content: space-around;
