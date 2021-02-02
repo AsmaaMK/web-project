@@ -4,7 +4,7 @@
 
 .titleSection {
     text-align: center;
-    height: 50%;
+    margin-bottom: 20px;
 }
 
 
@@ -21,6 +21,7 @@
     font-weight: normal;
     color: whitesmoke;
     font-size: 46px;
+    margin-bottom: 0%;
 }
 
 .scrollButton {
