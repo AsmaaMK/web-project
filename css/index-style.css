@@ -129,7 +129,7 @@
 }
      
 .takeQuizNow {
-    background-color: #fff;
+    background-color:whitesmoke;
     border-radius: 150px 0 150px 0;
     text-align: center;
     width: 100%;
@@ -137,15 +137,19 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 100px;
+    position: relative;
 }
 
 .takeQuizNowTitle {
+    box-shadow: 0px 0px 16px 3px rgb(14 14 14 / 12%);
     background-color: #7F8690;
     border-radius: 20px;
     width: 700px;
-    height: 50px;
+    color: whitesmoke;
     align-self: center;
     justify-self: start;
+    font-size: 30px;
+    padding: 20px 0;
 }
 
 .boxes {
@@ -160,6 +164,31 @@
     height: 300px;
     border-radius: 20px;
     margin: 30px 20px;
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 0px 0px 16px 3px rgb(14 14 14 / 12%);
+}
+
+.boxes > * span {
+    align-self: start;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+}
+
+.boxes > * button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.boxes > * button:hover {
+    opacity: 80%;
 }
 
 .box1 {
@@ -169,6 +198,56 @@
     background-color: #D35D6E;
 }
 .box3 {
-    background-color: #583D72;
+    background-color: #775f8d;
 }
 
+.shape {
+    position: absolute;
+    top: 155px;
+}
+
+.circle {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border:  dimgray solid 0.000005px;
+}
+
+.stick {
+    position: absolute;
+    width: 5px;
+    left: 0.5px;
+    top: 4px;
+    height: 65px;
+    background-color: dimgray;
+}
+
+.buttomC {
+    top: 65px;
+}
+
+.sh1 {
+    left: 355px;
+}
+
+.sh2 {
+    left: 505px;
+}
+
+.sh3 {
+    left: 595px;
+}
+
+.sh4 {
+    left: 750px;
+}
+
+.sh5 {
+    left: 835px;
+}
+
+.sh6 {
+    left: 985px;
+}
