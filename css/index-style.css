@@ -73,6 +73,11 @@
     padding: 8px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
 .grid-item {
     padding: 15px;
     font-size: 31px;
