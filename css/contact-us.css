@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+    margin: 50px auto;
+}
+.contact{
+    overflow: hidden;
+}
+.vertical { 
+    border-left: 4px solid whitesmoke; 
+    height: 500px; 
+    position:absolute; 
+    left: 50%; 
+    top: 20%;
+    border-radius: 5px;
+}
+.contactUs_list {
+    list-style-type: none;
+    margin-left:300px;
+    margin-top: 150px;
+    padding-left:0px;
+    display: inline-block;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+.contactUs_list .imge {
+    margin-bottom: 30px;
+    width: 60px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.contactUs_list p{
+    display: inline;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    font-size: 30px
+
+} 
+.form1{
+    float: right;
+    width: 40%;
+    height: 100%;
+    color:#fff;
+    text-align: center;
+    margin-top: 130px;
+  }
+.form1 input[type="text"],input[type="email"],button{
+    padding:20px;
+    display: block;
+    margin: 10px; 
+}
+.form1 textarea{
+    padding-bottom: 50px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px; 
+    padding-right: 33px;
+    padding:20px;
+}
+.form1 input,textarea{
+    border-radius: 6px;
+    border-style:none; 
+    background-color:cornflowerblue;
+    color:aliceblue ;
+    font-size: 17px;
+}
+.form1 button{
+    background-color: black;color: aliceblue;border-radius: 6px;border-style:none;
+    text-align: center;width: 190px;
+    font-weight: bold;
+    font-size: 20px
+}
+input[type="text"]::placeholder{color: aliceblue; font-size: 17px;}
+.form1 input[type="email"]::placeholder{color: aliceblue; font-size: 17px;}
