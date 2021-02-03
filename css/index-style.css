@@ -120,7 +120,7 @@
     text-align: center;
 }
 
-.answer button {
+.answer div {
     color: black; 
     border: 0;
     width: 260px;
@@ -128,9 +128,16 @@
     margin-left: 25px;
     height: 40px;
     margin-top: 10px;
-    text-align: center;
     border-radius: 10px;
-    background-image: linear-gradient(to top left,rgba(0, 0, 0, .2));
+    /* background-image: linear-gradient(to top left,rgba(0, 0, 0, .2)); */
+}
+
+.answer div h4 {
+    margin: 0;
+    text-align: center;
+    justify-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
 }
 
 /* take quiz now section */
