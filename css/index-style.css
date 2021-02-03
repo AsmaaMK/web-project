@@ -2,9 +2,11 @@
     background-image: url(../img/header.png);
 }
 
+/* title section */
+
 .titleSection {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -52,12 +54,14 @@
     top: 54px;
     left: 5px;
 }
-/*****************************/
+
+/* How Quiz Works Section */
 
 .howQuizWorksSection1 {
     background-color: white;
-    height: 700px;
+    height: 500px;
     padding-top: 8px;
+    border-radius:  0 0 15em 0;
 }
 
 .textStyle {
@@ -127,17 +131,18 @@
     border-radius: 10px;
     background-image: linear-gradient(to top left,rgba(0, 0, 0, .2));
 }
+
+/* take quiz now section */
      
 .takeQuizNow {
-    background-color:whitesmoke;
-    border-radius: 150px 0 150px 0;
+    background-color:white;
+    border-radius: 0 15em 0;
     text-align: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 100px;
-    position: relative;
+    padding: 70px;
 }
 
 .takeQuizNowTitle {
@@ -152,6 +157,8 @@
     padding: 20px 0;
 }
 
+/* style boxes */
+
 .boxes {
     display: flex;
     justify-content: center;
@@ -163,13 +170,14 @@
     width: 200px;
     height: 300px;
     border-radius: 20px;
-    margin: 30px 20px;
+    margin: 30px 20px 0;
     color: whitesmoke;
     font-size: 30px;
     display: flex;
     padding: 20px;
     flex-direction: column;
     box-shadow: 0px 0px 16px 3px rgb(14 14 14 / 12%);
+    position: relative;
 }
 
 .boxes > * span {
@@ -201,13 +209,18 @@
     background-color: #775f8d;
 }
 
+/* style shapes */
+
 .shape {
     position: absolute;
-    top: 155px;
+    width: 160px;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    top: -50px;
 }
 
 .circle {
-    position: absolute;
     width: 7px;
     height: 7px;
     background-color: whitesmoke;
@@ -216,38 +229,52 @@
 }
 
 .stick {
-    position: absolute;
     width: 5px;
-    left: 0.5px;
-    top: 4px;
     height: 65px;
     background-color: dimgray;
 }
 
-.buttomC {
-    top: 65px;
+/* footer style */
+
+footer {
+    background-color: #2291FF;
+    color: #fff;
+    position: relative;
+    padding: 40px 200px ;
 }
 
-.sh1 {
-    left: 355px;
+footer p {
+    font-size: 23px;
 }
 
-.sh2 {
-    left: 505px;
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.sh3 {
-    left: 595px;
+footer a:hover {
+    font-weight: normal;
 }
 
-.sh4 {
-    left: 750px;
+.icons > * img {
+    width: 50px;
+    position: absolute;
+    top: -25px;
 }
 
-.sh5 {
-    left: 835px;
+.icons > * img:hover {
+    opacity: 80%;
 }
 
-.sh6 {
-    left: 985px;
+.fc {
+    right: 250px;
+}
+
+.tw {
+    right: 170px;
+}
+
+.st {
+    right: 90px;
 }
