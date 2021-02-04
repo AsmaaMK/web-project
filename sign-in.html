@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="F:\web-project-main\fontawesome-free-5.15.2-web\css\all.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Comic+Neue&family=Dosis&family=Libre+Baskerville&family=Philosopher:ital,wght@0,700;1,400&display=swap"
+          rel="stylesheet">
+</head>
+
+<body class="background" style="background-image: url('../img/blue background.jpg')">
+    
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li class="listelements left logo">Quiz</li>
+                <a href="sign-in.html">
+                    <li class="listelements right active">Log In</li>
+                </a>
+                <a href="sign-up.html">
+                    <li class="listelements right">Sign Up</li>
+                </a>
+                <a href="contact-us.html">
+                    <li class="listelements right">Contact Us</li>
+                </a>
+                <a href="../index.html">
+                    <li class="listelements right">Home</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+
+        <div>
+            <img src="../img/puzzle-piece.png">
+        </div>
+        <div class="login">
+            <div id="paragraph">
+                <p>
+                    <h1>Hello,</h1>
+                    <h1>Welcome back</h1>
+                </p>
+            </div>
+
+            <div id="form">
+                <form id="form1" class="form">
+                    <div class="form-control">
+                        <!------------------------------User name -------------------->
+                        <fieldset>
+                            <legend>
+                                <h3>username</h3>
+                            </legend>
+                            <input type="text" id="username1">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </fieldset>
+                    </div>
+                    <br />
+                    <div class="form-control">
+                        <!----------------------------password------------------------->
+                        <fieldset>
+                            <legend>
+                                <h3>password</h3>
+                            </legend>
+                            <input type="password" id="password1">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </fieldset>
+                    </div>
+                    <a href="sign-in.html" id="password">forget password?</a>
+                    <br /><br />
+                    <button type="submit">login</button>
+                    <br />
+                    <div id="account">Don't have an account? <a href="sign-up.html" class="sign">Sign Up</a> now</div>
+                </form>
+            </div>
+
+        </div>
+        </div>
+        <script src="signin-script.js"></script>
+
+</body>
+
+</html>
