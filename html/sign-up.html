@@ -3,8 +3,9 @@
 
 <head>
     <title>Sign Up</title>
+    <link rel="stylesheet" href="C:\Users\compumarts\OneDrive\Desktop\web-project\fontawesome-free-5.15.2-web\css\all.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/login-signup-style.css">
+    <link rel="stylesheet" href="../css/signup-style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Audiowide&family=Comic+Neue&family=Dosis&family=Libre+Baskerville&family=Philosopher:ital,wght@0,700;1,400&display=swap"
@@ -12,6 +13,7 @@
 </head>
 
 <body class="background" style="background-image: url('../img/blue background.jpg')">
+
     <header>
         <nav>
             <ul class="navbar">
@@ -29,41 +31,59 @@
                     <li class="listelements right">Home</li>
                 </a>
             </ul>
+        </nav>
     </header>
     <div class="content">
         <!-- Hi Eman, solve your task here ♥️ -->
         <div>
             <img src="../img/puzzle-piece.png">
         </div>
-        <div id = "signup">
-            <form>
-                <!------------------------------User name -------------------->
-                <fieldset>
-                    <legend> username</legend>
-                    <input type = "text" >
-                </fieldset>
-                <br/><br/>
-                <!-----------------------------Email-------------------------->
-                <fieldset>
-                    <legend>E-mail</legend>
-                    <input type = "text">
-                </fieldset>
-                <br/><br/>
-                <!----------------------------password------------------------->
-                <fieldset>
-                    <legend> password</legend>
-                    <input type = " password">
-                </fieldset>
+        <div id="signup">
+            <form id="form" class="form">
+                <div class="form-control">
+                    <!------------------------------User name -------------------->
+                    <fieldset>
+                        <legend> username</legend>
+                        <input type="text" id="username">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </fieldset>
+                    <br /><br />
+                </div>
+                <div class="form-control">
+                    <!-----------------------------Email-------------------------->
+                    <fieldset>
+                        <legend>E-mail</legend>
+                        <input type="email" id="email">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </fieldset>
+                    <br /><br />
+                </div>
+                <div class="form-control">
+                    <!----------------------------password------------------------->
+                    <fieldset>
+                        <legend> password</legend>
+                        <input type="password" id="password">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </fieldset>
+                </div>
                 <!----------------------------button sign up------------------->
-                <div id = "textunderform">
+                <div id="textunderform">
                     &nbsp; &nbsp; Already have an account &nbsp;
-                    <a href="sign in.html" class="sign">sign in</a>
+                    <a href="sign-in.html" class="sign">Sign In</a>
                 </div>
                 <br><br>
-                <button type="button"> sign up</button>
+                <button type="submit"> sign up</button>
+
             </form>
         </div>
     </div>
+    <script src="signup-script.js"></script>
 </body>
 
 </html>
