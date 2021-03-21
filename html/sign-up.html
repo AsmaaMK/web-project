@@ -3,13 +3,8 @@
 
 <head>
     <title>Sign Up</title>
-    <link rel="stylesheet" href="C:\Users\compumarts\OneDrive\Desktop\web-project\fontawesome-free-5.15.2-web\css\all.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/signup-style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Comic+Neue&family=Dosis&family=Libre+Baskerville&family=Philosopher:ital,wght@0,700;1,400&display=swap"
-        rel="stylesheet">
 </head>
 
 <body class="background" style="background-image: url('../img/blue background.jpg')">
@@ -36,41 +31,41 @@
     <div class="content">
         <!-- Hi Eman, solve your task here ♥️ -->
         <div>
-            <img src="../img/puzzle-piece.png">
+            <img class="puzzle" src="../img/puzzle-piece.png">
         </div>
         <div id="signup">
             <form id="form" class="form">
                 <div class="form-control">
                     <!------------------------------User name -------------------->
-                    <fieldset>
+                    <fieldset id="fieldset1">
                         <legend> username</legend>
                         <input type="text" id="username">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error message</small>
+                        <img src="../icons/correct.svg" alt="" class="correct-icon user-icon hide-icon icon" id="img1">
+                        <img src="../icons/wrong.svg" alt="" class="wrong-icon user-icon hide-icon icon" id="img2">
                     </fieldset>
+                    <div id="username-error"></div>
                     <br /><br />
                 </div>
                 <div class="form-control">
                     <!-----------------------------Email-------------------------->
-                    <fieldset>
+                    <fieldset id="fieldset3">
                         <legend>E-mail</legend>
                         <input type="email" id="email">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error message</small>
+                        <img src="../icons/correct.svg" alt="" class="correct-icon email-icon hide-icon icon" id="img3">
+                        <img src="../icons/wrong.svg" alt="" class="wrong-icon email-icon hide-icon icon" id="img4">
                     </fieldset>
+                    <div id="email-error"></div>
                     <br /><br />
                 </div>
                 <div class="form-control">
                     <!----------------------------password------------------------->
-                    <fieldset>
+                    <fieldset id="fieldset2">
                         <legend> password</legend>
                         <input type="password" id="password">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                        <small>Error message</small>
+                        <img src="../icons/correct.svg" alt="" class="correct-icon password-icon hide-icon icon" id="img5">
+                        <img src="../icons/wrong.svg" alt="" class="wrong-icon password-icon hide-icon icon" id="img6">
                     </fieldset>
+                    <div id="password-error"></div>
                 </div>
                 <!----------------------------button sign up------------------->
                 <div id="textunderform">
@@ -83,7 +78,7 @@
             </form>
         </div>
     </div>
-    <script src="../javascript/signup-script.js"></script>
+    <script src="../javascript/script.js"></script>
 </body>
 
 </html>
