@@ -102,6 +102,8 @@ button {
     border-radius: 12px;
     color: white;
     background-color: black;
+    outline: 0;
+    cursor: pointer;
     font-size: 25px;
     border: none;
 }

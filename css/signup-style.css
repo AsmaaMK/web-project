@@ -1,3 +1,4 @@
+
 fieldset {
     width: 380px;
     border-radius: 12px;
@@ -77,7 +78,7 @@ img {
 .login ,#signup{
     position: relative;
     float: right;
-    bottom: 250px;
+    bottom: 200px;
     right: 300px;
 }
 
@@ -105,9 +106,9 @@ button {
     color: white;
     background-color: black;
     font-size: 25px;
+    outline: 0;
+    cursor: pointer;
     border:none;
-    position:fixed;
-    top:510px;
 }
 
 #account {
