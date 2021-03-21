@@ -3,7 +3,7 @@
 
 <head>
     <title>Sign Up</title>
-    <link rel="stylesheet" href="C:\Users\compumarts\OneDrive\Desktop\web-project\fontawesome-free-5.15.2-web\css\all.css">
+    <link rel="stylesheet" href="F:\web\web-project-new\fontawesome-free-5.15.2-web\css\all.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/signup-style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -44,7 +44,7 @@
                     <!------------------------------User name -------------------->
                     <fieldset>
                         <legend> username</legend>
-                        <input type="text" id="username">
+                        <input type="text" onkeyup="checkInputsUser()" onmouseover="checkInputsUser()" id="username">
                         <i class="fas fa-check-circle"></i>
                         <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
@@ -55,7 +55,7 @@
                     <!-----------------------------Email-------------------------->
                     <fieldset>
                         <legend>E-mail</legend>
-                        <input type="email" id="email">
+                        <input type="text" onkeyup="checkInputsEmail()" onmouseover="checkInputsEmail()" id="email">
                         <i class="fas fa-check-circle"></i>
                         <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
@@ -66,24 +66,31 @@
                     <!----------------------------password------------------------->
                     <fieldset>
                         <legend> password</legend>
-                        <input type="password" id="password">
+                        <input type="password" onkeyup="checkInputsPassword()" onmouseover="checkInputsPassword()" id="password">
                         <i class="fas fa-check-circle"></i>
                         <i class="fas fa-exclamation-circle"></i>
                         <small>Error message</small>
+                        <span class="showBtn">SHOW</span>
                     </fieldset>
                 </div>
+                <div class="indicator">
+                            <span class="Weak"></span>
+                            <span class="medium"></span>
+                            <span class="strong"></span>
+                </div>
+                <div class="text"></div>
                 <!----------------------------button sign up------------------->
                 <div id="textunderform">
                     &nbsp; &nbsp; Already have an account &nbsp;
                     <a href="sign-in.html" class="sign">Sign In</a>
                 </div>
                 <br><br>
-                <button type="submit"> sign up</button>
+                <button type="submit" onclick="configure()"> sign up</button>
 
             </form>
         </div>
     </div>
-    <script src="../javascript/signup-script.js"></script>
+    <script src="signup-script.js"></script>
 </body>
 
 </html>

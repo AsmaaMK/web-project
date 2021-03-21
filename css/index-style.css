@@ -1,15 +1,6 @@
-.background {
-    background-image: url(../img/header.png);
-    background-color: #2291FF;
-}
-
-/* title section */
-
 .titleSection {
     text-align: center;
-    height: 100vh;
 }
-
 
 .title {
     font-family: 'Audiowide', cursive;
@@ -24,7 +15,6 @@
     font-weight: normal;
     color: whitesmoke;
     font-size: 46px;
-    margin-bottom: 0%;
 }
 
 .scrollButton {
@@ -56,13 +46,10 @@
     left: 5px;
 }
 
-/* How Quiz Works Section */
-
 .howQuizWorksSection1 {
     background-color: white;
-    height: 500px;
+    height: 700px;
     padding-top: 8px;
-    border-radius:  0 0 15em 0;
 }
 
 .textStyle {
@@ -76,11 +63,6 @@
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 8px;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-around;
 }
 
 .grid-item {
@@ -120,7 +102,7 @@
     text-align: center;
 }
 
-.answer div {
+.answer button {
     color: black; 
     border: 0;
     width: 260px;
@@ -128,161 +110,8 @@
     margin-left: 25px;
     height: 40px;
     margin-top: 10px;
-    border-radius: 10px;
-    /* background-image: linear-gradient(to top left,rgba(0, 0, 0, .2)); */
-}
-
-.answer div h4 {
-    margin: 0;
     text-align: center;
-    justify-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top left,rgba(0, 0, 0, .2));
 }
-
-/* take quiz now section */
      
-.takeQuizNow {
-    background-color:white;
-    border-radius: 0 15em 0;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 70px;
-}
-
-.takeQuizNowTitle {
-    box-shadow: 0px 0px 16px 3px rgb(14 14 14 / 12%);
-    background-color: #7F8690;
-    border-radius: 20px;
-    width: 700px;
-    color: whitesmoke;
-    align-self: center;
-    justify-self: start;
-    font-size: 30px;
-    padding: 20px 0;
-}
-
-/* style boxes */
-
-.boxes {
-    display: flex;
-    justify-content: center;
-    justify-self: center;
-    width: 100%;
-}
-
-.boxes > * {
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;
-    margin: 30px 20px 0;
-    color: whitesmoke;
-    font-size: 30px;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    box-shadow: 0px 0px 16px 3px rgb(14 14 14 / 12%);
-    position: relative;
-}
-
-.boxes > * span {
-    align-self: start;
-    font-size: 15px;
-    padding-bottom: 20px;
-    padding-left: 12px;
-}
-
-.boxes > * button {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-}
-
-.boxes > * button:hover {
-    opacity: 80%;
-}
-
-.box1 {
-    background-color: #FFA45B;
-}
-.box2 {
-    background-color: #D35D6E;
-}
-.box3 {
-    background-color: #775f8d;
-}
-
-/* style shapes */
-
-.shape {
-    position: absolute;
-    width: 160px;
-    display: flex;
-    height: 70px;
-    justify-content: space-between;
-    top: -50px;
-}
-
-.circle {
-    width: 7px;
-    height: 7px;
-    background-color: whitesmoke;
-    border-radius: 50%;
-    border:  dimgray solid 0.000005px;
-}
-
-.stick {
-    width: 5px;
-    height: 65px;
-    background-color: dimgray;
-}
-
-/* footer style */
-
-footer {
-    background-color: #2291FF;
-    color: #fff;
-    position: relative;
-    padding: 40px 200px ;
-}
-
-footer p {
-    font-size: 23px;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    font-weight: normal;
-}
-
-.icons > * img {
-    width: 50px;
-    position: absolute;
-    top: -25px;
-}
-
-.icons > * img:hover {
-    opacity: 80%;
-}
-
-.fc {
-    right: 250px;
-}
-
-.tw {
-    right: 170px;
-}
-
-.st {
-    right: 90px;
-}

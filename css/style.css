@@ -7,11 +7,13 @@ body {
     padding: 0%;
     display: grid;
     grid-template-rows: 70px auto;
+}
+
+.background {
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-attachment: fixed;
 }
 
 /* navigation bar styles */

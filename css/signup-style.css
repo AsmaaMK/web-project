@@ -54,6 +54,63 @@ input {
     background: none;
     top: 10px;
 }
+.showBtn{
+    position: absolute;
+    left: 270px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    font-size: 600;
+    display: none;
+}
+.indicator{    
+    position: absolute;
+    top: 292px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+form .indicator span{
+    height: 10px;
+    width: 110px;
+    border-radius: 100px;
+}
+.active.Weak{
+    position: absolute; 
+    left: 20px;
+    background: red;
+}
+.active.medium{
+    position: absolute; 
+    left: 140px;
+    background: orange;
+}
+.active.strong{
+    position: absolute; 
+    left: 260px;
+    background: #23ad5c;
+}
+.text{
+    position: absolute;
+    left: 90px;
+    top:306px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: -10px;
+    display: none;
+}
+.text.Weak{
+    color: red;
+}
+.text.medium{
+    color: orange;
+}
+.text.strong{
+    color: #23ad5c;
+}
 .form-control input:focus {
     outline: 0;
     border-color: none;
@@ -107,7 +164,7 @@ button {
     font-size: 25px;
     border:none;
     position:fixed;
-    top:510px;
+    top:520px;
 }
 
 #account {
@@ -129,7 +186,7 @@ button {
 #textunderform{
     color: white;
     position: relative;
-    top:15px;
+    top:25px;
     right:5px;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
