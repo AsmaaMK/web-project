@@ -36,6 +36,26 @@ username.addEventListener('input', function () {
     }
 });
 
+pass.addEventListener('input', function () {
+    if (pass.value.trim() === '') {
+        passField.className = 'wrong';
+        passWrongIcon.className = "wrong-icon password-icon show-icon icon";
+        passCorrectIcon.className = "correct-icon password-icon hide-icon icon";
+        passErorr.innerHTML = "This field can't be empty";
+    } else if (pass.value.trim().length < 6) {
+        passField.className = 'wrong';
+        passCorrectIcon.className = "correct-icon password-icon hide-icon icon";
+        passWrongIcon.className = "wrong-icon password-icon show-icon icon";
+        passErorr.innerHTML = "Password can't be less than 6 char";
+    }
+    else {
+        passField.className = 'correct';
+        passWrongIcon.className = "wrong-icon password-icon hide-icon icon";
+        passCorrectIcon.className = "correct-icon password-icon show-icon icon";
+        passErorr.innerHTML = "";
+    }
+});
+
 email.addEventListener('input', function () {
     if (email.value.trim() === '') {
         emailField.className = 'wrong';
@@ -56,22 +76,3 @@ email.addEventListener('input', function () {
     }
 });
 
-pass.addEventListener('input', function () {
-    if (pass.value.trim() === '') {
-        passField.className = 'wrong';
-        passWrongIcon.className = "wrong-icon password-icon show-icon icon";
-        passCorrectIcon.className = "correct-icon password-icon hide-icon icon";
-        passErorr.innerHTML = "This field can't be empty";
-    } else if (pass.value.trim().length < 6) {
-        passField.className = 'wrong';
-        passCorrectIcon.className = "correct-icon password-icon hide-icon icon";
-        passWrongIcon.className = "wrong-icon password-icon show-icon icon";
-        passErorr.innerHTML = "Password can't be less than 6 char";
-    }
-    else {
-        passField.className = 'correct';
-        passWrongIcon.className = "wrong-icon password-icon hide-icon icon";
-        passCorrectIcon.className = "correct-icon password-icon show-icon icon";
-        passErorr.innerHTML = "";
-    }
-});
